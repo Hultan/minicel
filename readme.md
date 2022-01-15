@@ -29,3 +29,4 @@ The application is written in Go.
 * Following Tsoding daily:s video in C : https://www.youtube.com/watch?v=HCAgvKQDJng
 * Reading a csv file : https://golangdocs.com/reading-and-writing-csv-files-in-golang
 * Package encoding/csv documentation : https://pkg.go.dev/encoding/csv
+* The source code : https://github.com/Hultan/minicel/tree/master
