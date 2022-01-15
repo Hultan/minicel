@@ -41,7 +41,18 @@ func main() {
 		_, _ = fmt.Fprintf(os.Stderr, "ERROR : Input file '%s' has invalid syntax.\n", fileName)
 		os.Exit(int(ExitCodeParseError))
 	}
-	fmt.Println(records)
+
+	// Print result
+	fmt.Fprintf(os.Stdout, "\n")
+	for _, row := range records {
+		for i, cell := range row {
+			if i > 0 {
+				fmt.Fprintf(os.Stdout, ",")
+			}
+			fmt.Fprintf(os.Stdout, "%s", cell.Value())
+		}
+		fmt.Fprintf(os.Stdout, "\n")
+	}
 }
 
 func usage(stderr *os.File) {

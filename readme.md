@@ -26,7 +26,7 @@ The application is written in Go.
 
 ## SOURCES
 
-* Following Tsoding daily:s video in C : https://www.youtube.com/watch?v=HCAgvKQDJng
+* Followed **Tsoding daily:s** video, but using Go instead of C : https://www.youtube.com/watch?v=HCAgvKQDJng
 * Reading a csv file : https://golangdocs.com/reading-and-writing-csv-files-in-golang
 * Package encoding/csv documentation : https://pkg.go.dev/encoding/csv
 * The source code : https://github.com/Hultan/minicel/tree/master
